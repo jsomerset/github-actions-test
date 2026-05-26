@@ -63,7 +63,7 @@ updates:
       interval: "weekly"
     commit-message: 
       prefix: "Dependabot (build-docker-image): "
-    groups: 
+    groups: # Groups left uncommented for testing
       gh-actions:
         applies-to: version-updates
         patterns:
