@@ -63,15 +63,15 @@ updates:
       interval: "weekly"
     commit-message: 
       prefix: "Dependabot (build-docker-image): "
-    groups: # Groups left uncommented for testing
-      gh-actions:
-        applies-to: version-updates
-        patterns:
-          - "*"
-      gh-actions-security:
-        applies-to: security-updates
-        patterns:
-          - "*"
+    # groups:
+    #   gh-actions:
+    #     applies-to: version-updates
+    #     patterns:
+    #       - "*"
+    #   gh-actions-security:
+    #     applies-to: security-updates
+    #     patterns:
+    #       - "*"
     labels:
       - "DevOps"
       - "dependencies"
